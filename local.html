@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Por Localidade</title>
+    <link rel="shortcut icon" href="img/time-zone.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <img alt="Logo" src="img/time-zone.png" id="icone">
+        </a>
+        <div id="consultas">
+        <a href="index.html">Pagina Inicial</a>
+        <a href="local.html" style="text-decoration: underline;">Consulta por Localidade</a>
+        <a href="porip.html">Consulta por IP</a>
+        </div>
+
+    </header>
+
+    <main id="div01">
+        <label for="">Continente:<select name="" id="tzone"></label>
+        <optgroup id="timezone">
+            <option value="" selected="selected" disabled="disabled"> selecione..</option>
+            <option value="Africa"> Africa</option>
+            <option value="America">America </option>
+            <option value="Antarctica">Antarctica </option>
+            <option value="Asia">Asia </option>
+            <option value="Atlantic">Atlantic </option>
+            <option value="Australia">Australia </option>
+            <option value="Europe">Europe </option>
+            <option value="Pacific"> Pacific</option>
+        </optgroup>
+        </select>
+        <label for="">Região:<select name="" id="reg"></label>
+        <optgroup id="region">
+            <option value="">selecione..</option>
+        </optgroup>
+        </select>
+
+    </main>
+    <div id="hora"></div>
+
+    <footer>
+        <a href="https://24timezones.com/hora_certa.php" target="_blank">Sobre</a>
+        <p>Este site não utiliza Cookies <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Crystal_Project_cookie.png" alt=""></p>
+    </footer>
+
+    <script src="local.js"></script>
+    
+</body>
+</html>
